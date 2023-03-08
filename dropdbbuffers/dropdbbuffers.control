@@ -1,0 +1,5 @@
+# dropdbbuffers extension
+comment = 'drop database buffers'
+default_version = '1.0'
+module_pathname = '$libdir/dropdbbuffers'
+relocatable = true
