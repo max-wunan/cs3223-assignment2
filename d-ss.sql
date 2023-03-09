@@ -13,7 +13,7 @@ SET enable_indexonlyscan = OFF;
 
 SET enable_indexscan = OFF;
 
-
+EXPLAIN ANALYZE
 SELECT *
 FROM r
 WHERE b > 9

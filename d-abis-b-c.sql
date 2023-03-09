@@ -1,4 +1,7 @@
 -- d-abis-b-c.sql
+BEGIN;
+
+
 SET enable_bitmapscan = ON;
 
 
