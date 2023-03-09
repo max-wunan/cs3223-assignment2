@@ -16,11 +16,11 @@ DROP INDEX c_idx;
 
 DROP INDEX b_idx;
 
-
+EXPLAIN ANALYZE
 SELECT *
 FROM r
 WHERE b = 6
-    AND c < 7;
+    AND c < 0;
 
 
 ROLLBACK;

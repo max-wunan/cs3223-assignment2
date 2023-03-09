@@ -13,7 +13,7 @@ SET enable_seqscan = OFF;
 
 DROP INDEX cb_idx;
 
-
+EXPLAIN ANALYZE
 SELECT *
 FROM r
 WHERE b > 9

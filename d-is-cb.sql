@@ -16,7 +16,7 @@ DROP INDEX b_idx;
 
 DROP INDEX c_idx;
 
-
+EXPLAIN ANALYZE
 SELECT *
 FROM r
 WHERE b > 9
